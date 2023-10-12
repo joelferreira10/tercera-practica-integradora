@@ -1,0 +1,20 @@
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
+{"level":"error","message":"Error al conectar a la base de datos: The `uri` parameter to `openUri()` must be a string, got \"undefined\". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string."}
+{"level":"error","message":"Operation `users.insertOne()` buffering timed out after 10000ms"}
