@@ -2,7 +2,7 @@ import config from '../config/config.js';
 import jwt from 'jsonwebtoken';
 
 
-console.log(config.PRIVATE_KEY);
+
 export const generateToken=(user)=>{
   const payload={
     userID:user._id,
@@ -14,7 +14,7 @@ export const generateToken=(user)=>{
     cart:user.cart
   }
 
-  const token=jwt.sign(payload,config.PRIVATE_KEY,{expiresIn:"20m"});
+  const token=jwt.sign(payload,config.PRIVATE_KEY_JWT,{expiresIn:"20m"});
   return token;
   
 }

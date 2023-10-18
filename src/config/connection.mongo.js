@@ -2,7 +2,6 @@
 import mongoose from "mongoose";
 import config from './config.js';
 import { logger } from "../utils/logger.js";
-console.log("desde coneccion",config.CONNECT_MONGO_LOCAL);
 const connection = config.CONNECT_MONGO_LOCAL;
 
 const connectToDatabase = async () => {

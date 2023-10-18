@@ -8,5 +8,6 @@ export default{
     PRIVATE_KEY_JWT:process.env.PRIVATE_KEY_JWT,
     USER:process.env.USER,
     PASS:process.env.PASS,
-    PORT:process.env.PORT
+    PORT:process.env.PORT,
+    PRIVATE_KEY_SESSION:process.env.PRIVATE_KEY_SESSION
 }

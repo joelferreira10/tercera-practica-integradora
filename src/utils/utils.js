@@ -1,5 +1,6 @@
 import bcrypt from 'bcrypt'
-
+import config from '../config/config.js'
+import { logger } from './logger.js'
 export const hashPassword=password=>bcrypt.hashSync(password,bcrypt.genSaltSync(10))
 export const isValidPassword=(user,password)=>bcrypt.compareSync(password,user.password)
 
@@ -13,4 +14,12 @@ export const generateAlphanumericCode=(length = 10)=> {
         result += chars.charAt(Math.floor(Math.random() * chars.length));
     }
     return result;
+}
+
+/* ----------------------------- option session ----------------------------- */
+
+export const getSessionOption={
+    secret: config.PRIVATE_KEY_SESSION,
+    resave: false,
+    saveUninitialized: true
 }

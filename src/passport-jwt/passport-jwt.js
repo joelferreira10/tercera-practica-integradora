@@ -2,7 +2,9 @@ import passport from 'passport'
 import {ExtractJwt,Strategy as jwtStrategy}from 'passport-jwt'
 import config from '../config/config.js';
 import UserDaoMongo from '../persistence/daos/mongo/users.dao.js';
-dotenv.config();
+import { logger } from '../utils/logger.js';
+
+
 const userDao=new UserDaoMongo();
 const strategyOption={
     jwtFromRequest:ExtractJwt.fromAuthHeaderAsBearerToken(),
